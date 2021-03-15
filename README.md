@@ -5,7 +5,7 @@ Date | Description
 :--- | :---
 2021-Mar-15 | First version of this page.
 
-### Active
+### Currently active
 
 Date | Description
 :--- | :---
