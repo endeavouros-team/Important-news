@@ -1,5 +1,9 @@
 # Important news
-Up to date news about the usage of the EndeavourOS software, like manual interventions or important code changes.
+Up to date news for the users the EndeavourOS software, like manual interventions, important code changes, and more.
+
+Date | Description
+:--- | :---
+2021-Mar-15 | This page added.
 
 ### Currently active
 
@@ -7,14 +11,8 @@ Up to date news about the usage of the EndeavourOS software, like manual interve
 
 Date | Description
 :--- | :---
-2021-Mar-15 | This page added.
 
 ### Manual interventions
-
-Date | Description
-:--- | :---
-
-### Deprecated features
 
 Date | Description
 :--- | :---
@@ -24,9 +22,14 @@ Date | Description
 Date | Description
 :--- | :---
 
+### Deprecated features
+
+Date | Description
+:--- | :---
+
 ### Other (to be defined)
 
 Date | Description
 :--- | :---
 
-## Past new, no more active
+## Past news, no more required
