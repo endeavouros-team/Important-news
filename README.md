@@ -1,6 +1,8 @@
 # Important news
 Up to date news about the usage of the EndeavourOS software, like manual interventions or important code changes.
 
+### Currently active
+
 ### Important changes
 
 Date | Description
@@ -26,3 +28,5 @@ Date | Description
 
 Date | Description
 :--- | :---
+
+## Past new, no more active
