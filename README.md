@@ -24,7 +24,7 @@ Date | Description
 Date | Description
 :--- | :---
 
-### Other (To be defined)
+### Other (to be defined)
 
 Date | Description
 :--- | :---
