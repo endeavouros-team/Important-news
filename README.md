@@ -3,33 +3,9 @@ Up to date news for the users the EndeavourOS software, like manual intervention
 
 Date | Description
 :--- | :---
-2021-Mar-15 | This page added.
+2021-Mar-15 | First version of this page.
 
-### Currently active
-
-### Important changes
+### Active
 
 Date | Description
 :--- | :---
-
-### Manual interventions
-
-Date | Description
-:--- | :---
-
-### Temporary workarounds
-
-Date | Description
-:--- | :---
-
-### Deprecated features
-
-Date | Description
-:--- | :---
-
-### Other (to be defined)
-
-Date | Description
-:--- | :---
-
-## Past news, no more required
