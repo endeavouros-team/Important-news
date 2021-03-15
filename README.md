@@ -1,4 +1,4 @@
-# Important news
+# EndeavourOS software news
 Up to date news for the users the EndeavourOS software, like manual interventions, important code changes, and more.
 
 Date | Description
