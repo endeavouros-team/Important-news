@@ -3,6 +3,7 @@ Up to date news for the users the EndeavourOS software, like manual intervention
 
 Date | Description | Additional remarks
 :--- | :--- | :----
+2021-Aug-26 | The announced release date of the next EndeavourOS ISO is 2021-Aug-27 (that's tomorrow!).<br> Note that reinstalling is *not* required because EndeavourOS has a rolling release model.<br>However, we strongly recommend using the latest ISO in all *new* installs.
 2021-Aug-16 | The `eos-apps-info` app from package `eos-bash-shared` has been moved to a new package `eos-apps-info`.<br>If you already have installed a recent version of `eos-bash-shared`, then be sure to update<br>`eos-bash-shared` *before* installing `eos-apps-info`.
 2021-Jun-12 | Installations made with the April-2021 ISO *after* the release of `pacman` version 6<br>may not have all new pacman features in file `/etc/pacman.conf`.<br>In particular this means `pacman` does not use some *optimizations*<br>(like `ParallelDownloads`) available in version 6, but they can be manually added.<br>Please see [this link](https://forum.endeavouros.com/t/fresh-install-6-10-21-pacman-conf-no-paralelldownloads) for more information.
 2021-May-08 | A dependency of `eos-bash-shared` has been changed from `yad` to `yad-eos`.<br>Now pacman may inform about a conflict between them. User should simply accept the change.<br>This change makes `yad-eos` as the default yad provider.
