@@ -3,6 +3,7 @@ Up to date news for the users the EndeavourOS software, like manual intervention
 
 Date | Description | Additional remarks
 :--- | :--- | :----
+2021-Sep-16 | Some apps (e.g. the **Software News** button in `Welcome`) may fetch information from a specific internet site.<br>Users can now configure which of the supported sites will be used for fetching the data.<br>This can help when a particular site is (temporarily or permanently) unavailable.<br>More information: see file `/etc/eos-script-lib-yad.conf`, variable `EOS_FILESERVER_SITE`.
 2021-Sep-15 | In file `/etc/default/grub` you can use variable `GRUB_DISABLE_OS_PROBER`.<br>This can be used for enabling `os-prober` usage again, but note the potential *security risk* involved.<br>More information: [Grub manual](https://www.gnu.org/software/grub/manual/grub/grub.html)
 2021-Sep-09 | Nvidia GPU users: the `UpdateInTerminal` app includes a compatibility check<br>for Nvidia driver *and* kernel updates. It will warn users if a kernel would be updated<br>but the corresponding Nvidia driver would not.<br>Note that the `Welcome` app uses the `UpdateInTerminal` app for system updates. | Nvidia GPU
 2021-Aug-27 | EndeavourOS ISO 2021-Aug-27 is now released, [download it](https://endeavouros.com/latest-release/)! <br> Note that reinstalling is *not* required because EndeavourOS has a rolling release model.<br>However, we strongly recommend using the latest ISO in all *new* installs. | New ISO
