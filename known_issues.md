@@ -16,10 +16,10 @@ Installer says there is no internet connection,<br> but it does exist. | Using V
 Description of the issue | Possible remedy
 :---- | :----
 An app behaves unexpected | Make sure your system is properly updated (use terminal command `pacman -Syu` or `yay`).<br>Make sure you have carefully checked and merged all app configuration updates.<br>Use terminal command `eos-pacdiff` for this.
-On nvidia system, after system update<br>the next boot stops at a blank screen | Typically, on a kernel update the corresponding nvidia driver package should be updated as well.<br>Sometimes that doesn't happen, which leads to this problem.<br>Remedy: use apps `UpdateInTerminal`, `eos-welcome` or `eos-update-notifier`<br>for updating the system, because they can detect such a problem and let you decide what to do.
+On nvidia system, after system update<br>the next boot stops at a blank screen | Typically, on a kernel update the corresponding nvidia driver package should be updated as well.<br>Sometimes that doesn't happen, which can lead to this problem.<br>Remedy: use apps `UpdateInTerminal`, `eos-welcome` or `eos-update-notifier`<br>for updating the system, because they can detect such a problem and let you decide what to do.
 
 ## Drivers
 
 Description of the issue | Possible remedy
 :---- | :----
-Wired (ethernet) connection does not work properly | If you have an `r8168` ethernet card, either uninstall the r8168 package, or reinstall it. Then reboot.
+Wired (ethernet) connection does not work properly | If you have an `r8168` ethernet card, either uninstall the r8168 package, or reinstall it. Then reboot.<br>Note that on a new installation (November 2021 or later) you may already have the r8168 driver package. Try installing it with<br>`sudo pacman -U /opt/extra-drivers/r8168-*.zst`

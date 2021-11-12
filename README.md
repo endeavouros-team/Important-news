@@ -6,6 +6,7 @@ Up to date news for the users the EndeavourOS software, like manual intervention
 
 Date | Description | Additional remarks
 :--- | :--- | :----
+2021-Nov-12 | The next EndeavourOS ISO will have driver package r8168 stored in folder<br> `/opt/extra-drivers`<br>If you have Realtek 8168 Ethernet card and r8169 driver is not working, r8168 can be installed with command<br>`sudo pacman -U /opt/extra-drivers/r8168-*.pkg.tar.zst` | Pre-information!
 2021-Sep-21 | Added a link on this page to [Known issues](known_issues.md).
 2021-Sep-16 | Some apps (e.g. the **Software News** button in `Welcome`) may fetch information from a specific internet site.<br>Users can now configure which of the supported sites will be used for fetching the data.<br>This can help when a particular site is (temporarily or permanently) unavailable.<br>More information: see file `/etc/eos-script-lib-yad.conf`, variable `EOS_FILESERVER_SITE`.
 2021-Sep-15 | In file `/etc/default/grub` you can use variable `GRUB_DISABLE_OS_PROBER`.<br>This can be used for enabling `os-prober` usage again, but note the potential *security risk* involved.<br>More information: [Grub manual](https://www.gnu.org/software/grub/manual/grub/grub.html)
