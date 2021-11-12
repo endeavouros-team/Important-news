@@ -1,6 +1,6 @@
 # Known issues
 
-Last update: 2021-Sep-21.
+Last update: 2021-Nov-12.
 
 Here we will list known issues of the latest EndeavourOS ISO, drivers and apps.
 
