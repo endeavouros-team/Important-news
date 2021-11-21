@@ -1,6 +1,6 @@
 # Known issues
 
-Last update: 2021-Nov-12.
+Last update: 2021-Nov-21.
 
 Here we will list known issues of the latest EndeavourOS ISO, drivers and apps.
 
@@ -22,4 +22,4 @@ On nvidia system, after system update<br>the next boot stops at a blank screen |
 
 Description of the issue | Possible remedy
 :---- | :----
-Wired (ethernet) connection does not work properly | If you have an `r8168` ethernet card, either uninstall the r8168 package, or reinstall it. Then reboot.<br>Note that on a new installation (November 2021 or later) you may already have the r8168 driver package. Try installing it with<br>`sudo pacman -U /opt/extra-drivers/r8168-*.zst`
+Wired (ethernet) connection does not work properly | If you have a Realtek `8168` ethernet card, either uninstall the `r8168` package, or reinstall it. Then reboot.
