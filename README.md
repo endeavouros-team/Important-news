@@ -2,6 +2,8 @@
 
 [Known issues](known_issues.md)
 
+[Example of user_commands.bash](user_commands.bash.example)
+
 Up to date news for the users the EndeavourOS software, like manual interventions, important code changes, and more.
 
 Date | Description | Additional remarks
