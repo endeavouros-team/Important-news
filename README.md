@@ -1,5 +1,7 @@
 # EndeavourOS software news
 
+[![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)]()
+
 [Known issues](known_issues.md)
 
 [Example of user_commands.bash](user_commands.bash.example)
