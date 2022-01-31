@@ -10,6 +10,7 @@ Up to date news for the users the EndeavourOS software, like manual intervention
 
 Date | Description | Additional remarks
 :--- | :--- | :----
+2022-Jan-31 | Btrfs users: consider removing the `autodefrag` option from partitions with a btrfs filesystem.<br>It has been reported that 5.16 kernel has a bug that can wear out an SSD rapidly.<br> [More info](https://forum.endeavouros.com/t/psa-linux-5-16-has-major-regression-in-btrfs-causing-extreme-io-load/23446) | <b>Important!</b>
 2021-Sep-21 | Added a link on this page to [Known issues](known_issues.md).
 2021-Sep-16 | Some apps (e.g. the **Software News** button in `Welcome`) may fetch information from a specific internet site.<br>Users can now configure which of the supported sites will be used for fetching the data.<br>This can help when a particular site is (temporarily or permanently) unavailable.<br>More information: see file `/etc/eos-script-lib-yad.conf`, variable `EOS_FILESERVER_SITE`.
 2021-Sep-15 | In file `/etc/default/grub` you can use variable `GRUB_DISABLE_OS_PROBER`.<br>This can be used for enabling `os-prober` usage again, but note the potential *security risk* involved.<br>More information: [Grub manual](https://www.gnu.org/software/grub/manual/grub/grub.html)
