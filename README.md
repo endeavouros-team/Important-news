@@ -8,13 +8,15 @@
 
 Up to date news for the users the EndeavourOS software, like manual interventions, important code changes, and more.
 
-Date | Description | Additional remarks
-:--- | :--- | :----
-2022-Jan-31 | Btrfs on SSD: consider removing the `autodefrag` option from partitions with a btrfs filesystem<br>in file `/etc/fstab`.<br>It has been reported that 5.16 kernel has a btrfs related bug that can wear out an SSD rapidly.<br> [More info](https://forum.endeavouros.com/t/psa-linux-5-16-has-major-regression-in-btrfs-causing-extreme-io-load/23446) | <b>Important!</b>
+Date | Description | Additional remarks | Tags
+:--- | :--- | :---- | :---
+2022-Mar-30 | Welcome's installer now has a button showing the page how to customize what to install. || customization
+2022-Mar-27 | The next ISO, by default, enables:<br>- a firewall on the installed system<br>- bluetooth on the ISO (for testing with your hardware) but not on the installed system (like before) | | firewall
+2022-Jan-31 | Btrfs on SSD: consider removing the `autodefrag` option from partitions with a btrfs filesystem<br>in file `/etc/fstab`.<br>It has been reported that 5.16 kernel has a btrfs related bug that can wear out an SSD rapidly.<br> [More info](https://forum.endeavouros.com/t/psa-linux-5-16-has-major-regression-in-btrfs-causing-extreme-io-load/23446) | <b>Important!</b> | ssd, btrfs, kernel
 2021-Sep-21 | Added a link on this page to [Known issues](known_issues.md).
 2021-Sep-16 | Some apps (e.g. the **Software News** button in `Welcome`) may fetch information from a specific internet site.<br>Users can now configure which of the supported sites will be used for fetching the data.<br>This can help when a particular site is (temporarily or permanently) unavailable.<br>More information: see file `/etc/eos-script-lib-yad.conf`, variable `EOS_FILESERVER_SITE`.
 2021-Sep-15 | In file `/etc/default/grub` you can use variable `GRUB_DISABLE_OS_PROBER`.<br>This can be used for enabling `os-prober` usage again, but note the potential *security risk* involved.<br>More information: [Grub manual](https://www.gnu.org/software/grub/manual/grub/grub.html)
-2021-Sep-09 | Nvidia GPU users: the `UpdateInTerminal` app includes a compatibility check<br>for Nvidia driver *and* kernel updates. It will warn users if a kernel would be updated<br>but the corresponding Nvidia driver would not.<br>Note that the `Welcome` app uses the `UpdateInTerminal` app for system updates. | Nvidia GPU
+2021-Sep-09 | Nvidia GPU users: the `UpdateInTerminal` app includes a compatibility check<br>for Nvidia driver *and* kernel updates. It will warn users if a kernel would be updated<br>but the corresponding Nvidia driver would not.<br>Note that the `Welcome` app uses the `UpdateInTerminal` app for system updates. | Nvidia GPU | nvidia, gpu, kernel
 2021-Aug-27 | EndeavourOS ISO 2021-Aug-27 is now released, [download it](https://endeavouros.com/latest-release/)! <br> Note that reinstalling is *not* required because EndeavourOS has a rolling release model.<br>However, we strongly recommend using the latest ISO in all *new* installs. | New ISO
 2021-Aug-16 | The `eos-apps-info` app from package `eos-bash-shared` has been moved to a new package `eos-apps-info`.<br>If you already have installed a recent version of `eos-bash-shared`, then be sure to<br> update `eos-bash-shared` *before* installing `eos-apps-info`.
 2021-Jun-12 | Installations made with the April-2021 ISO *after* the release of `pacman` version 6<br>may not have all new pacman features in file `/etc/pacman.conf`.<br>In particular this means `pacman` does not use some *optimizations*<br>(like `ParallelDownloads`) available in version 6, but they can be manually added.<br>Please see [this link](https://forum.endeavouros.com/t/fresh-install-6-10-21-pacman-conf-no-paralelldownloads) for more information.
