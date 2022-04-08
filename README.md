@@ -10,6 +10,7 @@ Up to date news for the users the EndeavourOS software, like manual intervention
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
+2022.Apr-08 | With *offline* install in Apollo: if package `eos-quickstart` is not be installed, use terminal command<br>`yay -S eos-quickstart` to install it. || offline install
 2022-Apr-06 | The next ISO enables, by default:<br>- a firewall on the ISO and on the installed system<br>- bluetooth on the ISO (for testing with your hardware) but not on the installed system (like before) | | firewall, bluetooth
 2022-Apr-05 | How to fix updating system after offline install on Atlantis neo: see [this post](https://forum.endeavouros.com/t/issue-updating-system-after-xfce4-offline-install-atlantis-neo/25635). |  | offline install, Atlantis neo
 2022-Mar-30 | Welcome's installer now has a button showing the page how to customize what to install. || customization
