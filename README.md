@@ -2,16 +2,17 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)]()
 
+[Download the latest ISO](https://endeavouros.com/latest-release)
+
 [Known issues](known_issues.md)
 
-[Example of user_commands.bash](user_commands.bash.example)
 
 Up to date news for the users the EndeavourOS software, like manual interventions, important code changes, and more.
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
 2022.Apr-08 | With *offline* install in Apollo: if package `eos-quickstart` is not be installed, use terminal command<br>`yay -S eos-quickstart` to install it. || offline install
-2022-Apr-06 | The next ISO enables, by default:<br>- a firewall on the ISO and on the installed system<br>- bluetooth on the ISO (for testing with your hardware) but not on the installed system (like before) | | firewall, bluetooth
+2022-Apr-06 | The next ISO, **Apollo**, enables, by default:<br>- a firewall on the ISO and on the installed system<br>- bluetooth on the ISO (for testing with your hardware) but not on the installed system (like before) | | firewall, bluetooth
 2022-Apr-05 | How to fix updating system after offline install on Atlantis neo: see [this post](https://forum.endeavouros.com/t/issue-updating-system-after-xfce4-offline-install-atlantis-neo/25635). |  | offline install, Atlantis neo
 2022-Mar-30 | Welcome's installer now has a button showing the page how to customize what to install. || customization
 2022-Jan-31 | Btrfs on SSD: consider removing the `autodefrag` option from partitions with a btrfs filesystem<br>in file `/etc/fstab`.<br>It has been reported that 5.16 kernel has a btrfs related bug that can wear out an SSD rapidly.<br> [More info](https://forum.endeavouros.com/t/psa-linux-5-16-has-major-regression-in-btrfs-causing-extreme-io-load/23446) | <b>Important!</b> | ssd, btrfs, kernel
