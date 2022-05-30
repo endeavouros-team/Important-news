@@ -11,6 +11,7 @@ Up to date news for the users the EndeavourOS software, like manual intervention
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
+2022-May-30 | Budgie desktop users: we recommend using package<br> `budgie-control-center` instead of `gnome-control-center`.<br>See [this](https://forum.endeavouros.com/t/please-change-to-budgie-control-center-and-not-use-gnome-control-center-on-budgie-anymore/27616) for more info. | | Budgie desktop
 2022-Apr-27 | In certain use cases, the latest ISO, Apollo, may not be able to finish<br>the install process.<br>Please look [here](https://forum.endeavouros.com/t/apollo-iso-bug-is-fixed-for-most-users-and-also-a-workaround-for-those-who-need-it/26503) for a solution. | <b>Important!</b> | ISO fix
 2022-Apr-08 | With *offline* install in Apollo: if package `eos-quickstart` is not be installed, use terminal command<br>`yay -S eos-quickstart` to install it. || offline install
 2022-Apr-06 | The next ISO, **Apollo**, enables, by default:<br>- a firewall on the ISO and on the installed system<br>- bluetooth on the ISO (for testing with your hardware) but not on the installed system (like before) | | firewall, bluetooth
