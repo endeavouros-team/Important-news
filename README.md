@@ -11,6 +11,7 @@ Up to date news for the users the EndeavourOS software, like manual intervention
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
+202-Aug-22 | A major EndeavourOS server migration is going on. It may take a few days, please be patient!
 2022-Aug-19 | `eos-sendlog` program may fail with the default clbin.com service.<br>Workaround: see [this forum post](https://forum.endeavouros.com/t/eos-sendlog-certificate-issue) | | eos-sendlog, certificate
 2022-Aug-08 | Today's ISO release: **Artemis neo** || ISO
 2022-Jun-23 | New ISO, Artemis, has been released! || ISO
