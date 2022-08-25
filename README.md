@@ -11,6 +11,7 @@ Up to date news for the users the EndeavourOS software, like manual intervention
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
+2022-Aug-25 | Update of package `grub` may make UEFI systems unbootable.<br>Workaround: downgrade `grub` e.g. using the USB installer.<br>See the forum thread [here](https://forum.endeavouros.com/t/grub-2-2-06-r322-gd9b4638c5-1-wont-boot-and-goes-straight-to-the-bios-after-update). | | grub, downgrade
 2022-Aug-22 | A major EndeavourOS server migration is going on. It may take a few days, please be patient!
 2022-Aug-19 | `eos-sendlog` program may fail with the default clbin.com service.<br>Workaround: see [this forum post](https://forum.endeavouros.com/t/eos-sendlog-certificate-issue) | | eos-sendlog, certificate
 2022-Aug-08 | Today's ISO release: **Artemis neo** || ISO
