@@ -21,6 +21,7 @@ and more.
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
+2022-Oct-18 | New Nvidia GPUs (30xx and 40xx) may need a workaround for boot issues, a kernel parameter `ibt=off`. More info [here](https://wiki.archlinux.org/title/NVIDIA#Installation). || Nvidia GPU 30xx and 40xx
 2022-Oct-14 | Package `eos-hooks` 1.8-1 has been released to most mirrors, and the rest will have it soon. After update, please check your /etc/pacman.conf and report if there are any related issues.
 2022-Oct-13 | Package `eos-hooks` will be updated to 1.8-1 at Friday 2022-Oct-14, around 8 p.m. or 20 o'clock (both CET time zone).<br>This update will move the `[endeavouros]` repository before the Arch repositories in file `/etc/pacman.conf`.<br>Please report any issues about this at the [EndeavourOS forum](https://forum.endeavouros.com).<br>See also news at 2022-Sep-23 below. |<b>Important!</b>| repository order change
 2022-Oct-11 | Package `grub-tools` has been removed from the EndeavourOS repository. Mirrors should get the change within two days. || grub-tools removed
