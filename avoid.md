@@ -22,10 +22,13 @@ If you are familiar with a command line package manager from another distro, see
 
 Trying to uninstall packages that *seem* unnecessary may lead to various problems, e.g. unable to boot the system, or some programs behaving incorrectly.
 
-In other words, do not uninstall any package unless you have thoroughly investigated that the package is not needed by any other program in your system. Note that many packages have dependencies which may complicate the investigation.<br>
+In other words, do not uninstall any package unless you have thoroughly investigated that the package is not needed by any other program in your system. Note that many packages have dependencies which may complicate the investigation.
+
 Useful investigation tools are e.g.
 - `pactree` (<small>package `pacman-contrib`</small>)
 - `pacman`
+
+As a rule of thumb, don't uninstall a package if you are not sure if it may be needed.
 
 ## Do not let the package cache fill up the disk
 
@@ -49,4 +52,10 @@ Users should check the contents of an AUR package before usage, and may/should r
 However, although most AUR packages can be considered reliable, checking the contents for issues is *strongly* recommended.
 
 An AUR package can be useful if a similar official package is not available. For example, some drivers or special apps are not available in the official repositories.
+
+## Issues due to the removal of `grub-customizer`
+
+`grub` is one of the available bootloaders, and `grub-customizer` is a graphical settings manager for `grub`. EndeavourOS does not install it by default.
+If you have used it, uninstalling the `grub-customizer` package and trying to return to manual grub settings management can cause problems.<br>
+The [EndeavourOS forum](https://forum.endeavouros.com) has a few threads about the problems and their solutions.
 
