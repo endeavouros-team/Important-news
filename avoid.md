@@ -53,9 +53,8 @@ However, although most AUR packages can be considered reliable, checking the con
 
 An AUR package can be useful if a similar official package is not available. For example, some drivers or special apps are not available in the official repositories.
 
-## Issues due to the removal of `grub-customizer`
+## Do not use `grub-customizer`
 
-`grub` is one of the available bootloaders, and `grub-customizer` is a graphical settings manager for `grub`. EndeavourOS does not install it by default.
-If you have used it, uninstalling the `grub-customizer` package and trying to return to manual grub settings management can cause problems.<br>
-The [EndeavourOS forum](https://forum.endeavouros.com) has a few threads about the problems and their solutions.
+`grub` is one of the available bootloaders, and `grub-customizer` is a graphical settings manager for `grub`. Usage of `grub-customizer` has caused several serious problems, e.g. made the system unable to boot.<br>
+EndeavourOS does *not* install it by default, and recommends against installing it.
 
