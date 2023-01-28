@@ -16,7 +16,7 @@ and more.
 [EndeavourOS forum](https://forum.endeavouros.com) is the official place to talk about EndeavourOS.<br>
 [Download the latest ISO](https://endeavouros.com/latest-release)<br>
 [Known issues](known_issues.md)<br>
-[Tips for the EOS apps](tips-for-eos-apps.md)
+[Tips for the EOS apps](tips-for-eos-apps.md)<br>
 [Things to avoid](avoid.md)
 
 ## Important news
