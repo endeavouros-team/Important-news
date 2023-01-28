@@ -1,6 +1,6 @@
 # EndeavourOS software news
 
-[![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)]()
+[![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
 
 ## Description of this page
 
@@ -17,6 +17,7 @@ and more.
 [Download the latest ISO](https://endeavouros.com/latest-release)<br>
 [Known issues](known_issues.md)<br>
 [Tips for the EOS apps](tips-for-eos-apps.md)
+[Things to avoid](avoid.md)
 
 ## Important news
 
