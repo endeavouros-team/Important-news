@@ -29,6 +29,7 @@ Updates may fail for a number of reasons.
 Often sub-optimal mirrors cause problems. There are actually two different lists of mirror in use:
 - Arch (file `/etc/pacman.d/mirrorlist`)
 - EndeavourOS (file `/etc/pacman.d/endeavouros-mirrorlist`)
+
 and most mirror problems are related to the Arch mirrors because a vast majority of packages come from them directly.
 
 The Arch mirror list can be managed with several programs:
