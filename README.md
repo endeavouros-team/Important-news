@@ -23,6 +23,7 @@ and more.
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
+2023-Feb-18 | The `nvidia-inst` app currently does not support installing legacy drivers.<br>See our [wiki](https://discovery.endeavouros.com/nvidia/new-nvidia-driver-installer-nvidia-inst) and [this post](https://forum.endeavouros.com/t/trouble-installing-nvidia) for more info. | Older Nvidia GPUs | Nvidia
 2022-Dec-04 | On updating the system if you get this kind of error:<br>`error: failed to commit transaction (conflicting files)`<br>`<package-name>: <file-name> exists in filesystem`<br>then, after checking the file(s) *can* be overwritten, you can fix it with command<br>`sudo pacman -Syu --overwrite <filename>`<br>or if there are many similar errors,<br>`sudo pacman -Syu --overwrite '*'`<br>See `man pacman` and [the forum](https://forum.endeavouros.com/t/manual-intevention-needed-python-cairo-conflicting-files-during-update) for more info.
 2022-Oct-18 | New Nvidia GPUs (30xx and 40xx) may need a workaround for boot issues, a kernel parameter `ibt=off`. More info [here](https://wiki.archlinux.org/title/NVIDIA#Installation). || Nvidia GPU 30xx and 40xx
 2022-Oct-14 | Package `eos-hooks` 1.8-1 has been released to most mirrors, and the rest will have it soon. After update, please check your /etc/pacman.conf and report if there are any related issues.
