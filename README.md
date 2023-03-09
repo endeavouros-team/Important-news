@@ -23,6 +23,7 @@ and more.
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
+2023-Mar-08 | ISO release: [Cassini Nova](https://endeavouros.com/latest-release) || ISO
 2023-Feb-26 | Package `grub-customizer` is an app that causes lots of help requests in forums.<br>Thus we recommend against using it. If you have it already, you can get rid of it by<br>- uninstalling package `grub-customizer`<br>- removing folder tree `/etc/grub.d`<br>- reinstalling package `grub`<br>In case you have problems doing this, please come to the [forum](https://forum.endeavouros.com/t/faq-why-you-should-not-use-grub-customizer) for more advice. |  Removing grub-customizer | grub-customizer
 2023-Feb-18 | The `nvidia-inst` app currently does not support installing legacy drivers.<br>See our [wiki](https://discovery.endeavouros.com/nvidia/new-nvidia-driver-installer-nvidia-inst) and [this post](https://forum.endeavouros.com/t/trouble-installing-nvidia) for more info. | Older Nvidia GPUs | Nvidia
 2022-Dec-04 | On updating the system if you get this kind of error:<br>`error: failed to commit transaction (conflicting files)`<br>`<package-name>: <file-name> exists in filesystem`<br>then, after checking the file(s) *can* be overwritten, you can fix it with command<br>`sudo pacman -Syu --overwrite <filename>`<br>or if there are many similar errors,<br>`sudo pacman -Syu --overwrite '*'`<br>See `man pacman` and [the forum](https://forum.endeavouros.com/t/manual-intevention-needed-python-cairo-conflicting-files-during-update) for more info.
