@@ -23,6 +23,7 @@ and more.
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
+2023-Mar-13 | Kernel update problems, see this: https://forum.endeavouros.com/t/heads-up-on-latest-kernel-update-6-2-5-arch1-1/38399 | Affects some users | Kernel issues
 2023-Mar-08 | ISO release: [Cassini Nova](https://endeavouros.com/latest-release) || ISO
 2023-Feb-26 | Package `grub-customizer` is an app that causes lots of help requests in forums.<br>Thus we recommend against using it. If you have it already, you can get rid of it by<br>- uninstalling package `grub-customizer`<br>- removing folder tree `/etc/grub.d`<br>- reinstalling package `grub`<br>In case you have problems doing this, please come to the [forum](https://forum.endeavouros.com/t/faq-why-you-should-not-use-grub-customizer) for more advice. |  Removing grub-customizer | grub-customizer
 2023-Feb-18 | The `nvidia-inst` app currently does not support installing legacy drivers.<br>See our [wiki](https://discovery.endeavouros.com/nvidia/new-nvidia-driver-installer-nvidia-inst) and [this post](https://forum.endeavouros.com/t/trouble-installing-nvidia) for more info. | Older Nvidia GPUs | Nvidia
