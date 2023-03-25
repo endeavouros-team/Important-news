@@ -23,7 +23,7 @@ and more.
 
 Date | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
-2023-Mar-18 | The EndeavourOS ISO might not boot with the latest Nvidia cards. See [this workaround](https://forum.endeavouros.com/t/latest-nvidia-cards-do-not-boot-installer-liveiso/38650/1). | Workaround | Nvidia & ISO
+2023-Mar-25<br>2023-Mar-18 | The EndeavourOS ISO might not boot with the latest Nvidia cards. See [this workaround](https://forum.endeavouros.com/t/latest-nvidia-cards-do-not-boot-installer-liveiso/38650/1) and [the new weekly ISO at 2023-Mar-24](https://forum.endeavouros.com/t/latest-nvidia-cards-do-not-boot-installer-liveiso/38650/19). | Workaround | Nvidia & ISO
 2023-Mar-13 | Kernel update problems, see this: https://forum.endeavouros.com/t/heads-up-on-latest-kernel-update-6-2-5-arch1-1/38399 | Affects some users | Kernel issues
 2023-Mar-08 | ISO release: [Cassini Nova](https://endeavouros.com/latest-release) || ISO
 2023-Feb-26 | Package `grub-customizer` is an app that causes lots of help requests in forums.<br>Thus we recommend against using it. If you have it already, you can get rid of it by<br>- uninstalling package `grub-customizer`<br>- removing folder tree `/etc/grub.d`<br>- reinstalling package `grub`<br>In case you have problems doing this, please come to the [forum](https://forum.endeavouros.com/t/faq-why-you-should-not-use-grub-customizer) for more advice. |  Removing grub-customizer | grub-customizer
