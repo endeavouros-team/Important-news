@@ -23,6 +23,7 @@ and more.
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Tags
 :--- | :--- | :---- | :---
+2023.08.16 | The `UpdateInTerminal` app will be removed during this month. Recommended alternatives: `eos-update`, `yay`, or `paru`.<br>The *info page* of UpdateInTerminal has already been removed from package `eos-apps-info`. | `eos-apps-info` for more help. | UpdateInTerminal
 2023.05.23 | EndeavourOS *keyring* package has been updated. If you have problems updating your system, you may need to update the `endeavouros-keyring` package first, then other packages:<br>`sudo pacman -Sy endeavouros-keyring; sudo pacman -Syu`<br>Alternatively, you can use command<br>`eos-update` | [See more](https://forum.endeavouros.com/t/endeavouros-keyring-updated-users-should-update-soon/41117)
 2023.05.04 | Python 3.11 update has caused various issues, see [here](https://forum.endeavouros.com/t/users-of-optimus-manager-beware-the-python-update/40379) and [here](https://forum.endeavouros.com/t/the-python-3-11-rebuild-has-arrived-expect-a-large-number-of-updated-packages/40363).
 2023.03.30 | Updated ISO, [Cassini Nova R1](https://endeavouros.com/latest-release), includes updated packages, e.g. the latest Nvidia 530 series driver. | Latest Nvidia driver | ISO
