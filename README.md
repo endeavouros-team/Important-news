@@ -14,7 +14,7 @@ and more.
 ## Useful links
 
 [EndeavourOS forum](https://forum.endeavouros.com) is the official place to talk about EndeavourOS.<br>
-[Download the latest ISO](https://endeavouros.com/latest-release)<br>
+[Download the latest ISO](https://endeavouros.com)<br>
 [Known issues](known_issues.md)<br>
 [General tips](general-tips.md)<br>
 [Tips for the EOS apps](tips-for-eos-apps.md)<br>
