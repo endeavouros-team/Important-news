@@ -21,9 +21,10 @@ and more.
 
 ## Important news
 
-Date<br>yyyy.mm.dd | Description | Additional remarks | Tags
+Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
-2024.01.09 | If **wayland** does not start properly *and* **x11** works as expected, check your `~/.bash_profile` file. If it contains contains command `exec startx`, remove that line (and the surrounding `if...fi` statement). [See this forum thread](https://forum.endeavouros.com/t/wayland-not-working-after-update).
+2024.01.26 | `eos-pacdiff` supports option<br> `--backup`<br>that makes a backup of the old version of the file.<br>More info: see [this](https://forum.endeavouros.com/t/eos-pacdiff-news/50426) forum post.| | eos-pacdiff<br>file backup
+2024.01.09 | If **wayland** does not start properly *and* **x11** works as expected, check your `~/.bash_profile` file. If it contains contains command `exec startx`, remove that line (and the surrounding `if...fi` statement). [See this forum thread](https://forum.endeavouros.com/t/wayland-not-working-after-update).||wayland
 2023.09.01 | The implementation about informing the user about recommended reboot after updates has changed. To enable this feature, you need to enable the related systemd service:<br>`systemctl enable --now eos-reboot-required.timer` | Implementation change | Recommended reboot notification on updates
 2023.08.16 | The `UpdateInTerminal` app will be removed during this month. Recommended alternatives: `eos-update`, `yay`, or `paru`.<br>The *info page* of UpdateInTerminal has already been removed from package `eos-apps-info`. | `eos-apps-info` for more help. | UpdateInTerminal
 2023.05.23 | EndeavourOS *keyring* package has been updated. If you have problems updating your system, you may need to update the `endeavouros-keyring` package first, then other packages:<br>`sudo pacman -Sy endeavouros-keyring; sudo pacman -Syu`<br>Alternatively, you can use command<br>`eos-update` | [See more](https://forum.endeavouros.com/t/endeavouros-keyring-updated-users-should-update-soon/41117)
