@@ -23,7 +23,7 @@ and more.
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
-2024.04.02 | Backdoor found in upstream package **xz**, update your system *now*! [More info](https://forum.endeavouros.com/t/the-upstream-xz-repository-and-the-xz-tarballs-have-been-backdoored/53253).| | security
+2024.04.02 | A <span style="color:red">backdoor</span> found in upstream package **xz**, update your system *now*! [More info](https://forum.endeavouros.com/t/the-upstream-xz-repository-and-the-xz-tarballs-have-been-backdoored/53253).| | security
 2024.01.26 | `eos-pacdiff` supports option<br> `--backup`<br>that makes a backup of the old version of the file.<br>More info: see [this](https://forum.endeavouros.com/t/eos-pacdiff-news/50426) forum post.| | eos-pacdiff<br>file backup
 2024.01.09 | If **wayland** does not start properly *and* **x11** works as expected, check your `~/.bash_profile` file. If it contains contains command `exec startx`, remove that line (and the surrounding `if...fi` statement). [See this forum thread](https://forum.endeavouros.com/t/wayland-not-working-by-default-on-an-offline-install/49755).||wayland
 2023.09.01 | The implementation about informing the user about recommended reboot after updates has changed. To enable this feature, you need to enable the related systemd service:<br>`systemctl enable --now eos-reboot-required.timer` | Implementation change | Recommended reboot notification on updates
