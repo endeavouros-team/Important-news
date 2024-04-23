@@ -23,6 +23,7 @@ and more.
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2024.04.23 | Meet **Gemini**, the latest EndeavourOS ISO, released today!<br>Here's the [announcement](https://forum.endeavouros.com/t/plasma-6-with-wayland-or-x11-option-and-qt-6-ported-calamares-meet-gemini) and [download](https://endeavouros.com/#Download) page. || ISO
 2024.04.09 | The Endeavouros **ARM** installer will be removed from the next ISO. See [this announcement](https://forum.endeavouros.com/t/goodbye-endeavouros-arm) for more info. ||ARM
 2024.04.02 | A backdoor was found in upstream package **xz**, update your system *now*! [More info](https://forum.endeavouros.com/t/the-upstream-xz-repository-and-the-xz-tarballs-have-been-backdoored/53253).| | security
 2024.01.26 | `eos-pacdiff` supports option<br> `--backup`<br>that makes a backup of the old version of the file.<br>More info: see [this](https://forum.endeavouros.com/t/eos-pacdiff-news/50426) forum post.| | eos-pacdiff<br>file backup
