@@ -23,7 +23,7 @@ and more.
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
-2024.06.12 | The **r8168** driver package is no more supported by Arch. This means users should use the r8169 driver from the kernel, it should work in most cases. | The r8168 package in AUR is orphaned currently. | Realtek 8168 network card
+2024.06.12 | The **r8168** driver package is no more supported by Arch. This means users should use the r8169 driver from the kernel, it should work in most cases. See also [this link](https://forum.endeavouros.com/t/the-r8168-driver-package-is-removed-from-arch-repository). | The r8168 package in AUR is orphaned currently. | Realtek 8168 network card
 2024.05.11 | Issues with Nvidia 550 drivers, see [this post](https://forum.endeavouros.com/t/nvidia-550-drivers-causing-hard-crashing-during-updates). || Nvidia GPU
 2024.04.23 | Meet **Gemini**, the latest EndeavourOS ISO, released today!<br>Here's the [announcement](https://forum.endeavouros.com/t/plasma-6-with-wayland-or-x11-option-and-qt-6-ported-calamares-meet-gemini) and [download](https://endeavouros.com/#Download) page. || ISO
 2024.04.09 | The Endeavouros **ARM** installer will be removed from the next ISO. See [this announcement](https://forum.endeavouros.com/t/goodbye-endeavouros-arm) for more info. ||ARM
