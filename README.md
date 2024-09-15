@@ -23,7 +23,7 @@ and more.
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
-2024.09.14 | `yay` does not work after the latest of pacman to 7.0.0, and here's a [workaround](https://forum.endeavouros.com/t/pacman-7-0-0-r3-g7736133-1-update). For `paru` we unfortunately need to wait for a solution. | yay, paru | pacman 7.0.0
+2024.09.14 | `yay` does not work after the latest of pacman to 7.0.0, and here's a [workaround](https://forum.endeavouros.com/t/pacman-7-0-0-r3-g7736133-1-update). For `paru` we unfortunately need to wait for a solution.<br>Update 2024-09-15: the new version (12.3.5-2) of `yay` is OK now. | yay, paru | pacman 7.0.0
 2024.07.02 | OpenSSH security update info for version 9.8p1, [read this!](https://forum.endeavouros.com/t/the-sshd-service-needs-to-be-restarted-after-upgrading-to-openssh-9-8p1) | | Security
 2024.07.01 | The latest EndeavourOS ISO is called **Endeavour**! | [Announcement](https://forum.endeavouros.com/t/our-fifth-anniversary-the-return-of-arm-and-the-endeavour-release-with-plasma-6-1-is-here)<br>[Download](https://endeavouros.com/#Download)| ISO
 2024.06.12 | The **r8168** driver package is no more supported by Arch. This means users should use the r8169 driver from the kernel, it should work in most cases. See also [this link](https://forum.endeavouros.com/t/the-r8168-driver-package-is-removed-from-arch-repository). | The r8168 package in AUR is orphaned currently. | Realtek 8168 network card
