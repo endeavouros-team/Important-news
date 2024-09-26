@@ -23,5 +23,5 @@ An app behaves unexpectedly | Make sure your system is properly updated (use ter
 Description of the issue | Possible remedy
 :---- | :----
 Wired (ethernet) connection does not<br>work properly | If you have a Realtek `8168` ethernet card, either uninstall the `r8168` package, or reinstall it. Then reboot.<br>Note at 2024-Jun: package `r8168` has been moved to the AUR.
-Boot failure with new Nvidia cards (30xx and 40xx) | As a temporary workaround, add kernel parameter `ibt=off`.<br>2024-Jan: this should no more be needed.
+Boot failure with new Nvidia cards (30xx and 40xx) | <strike>As a temporary workaround, add kernel parameter `ibt=off`.</strike><br>2024-Jan: this should no more be needed.
 On nvidia system, after<br>system update the next boot<br>stops at a blank screen | Typically, on a kernel update the corresponding nvidia driver package should be updated as well.<br>Sometimes that doesn't happen, which can lead to this problem.<br>Remedy1: use the *dkms* version of the Nvidia driver (like `nvidia-dkms`). This is recommended.<br>Remedy2: use apps `eos-update` for updating the system, because they can detect such a problem and let you decide what to do.<br>Plain `pacman` or `yay` do not detect this.

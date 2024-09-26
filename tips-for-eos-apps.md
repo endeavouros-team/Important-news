@@ -23,8 +23,3 @@ EOS_AUTORANK_TIMEOUT=5      # allows max 5 seconds for each mirror
 ## eos-pacdiff
 
 To disable the initial warning window when starting `eos-pacdiff`, modify the value of variable `EOS_PACDIFF_WARNING` to `"no"` in file `/etc/eos-script-lib-yad.conf`.
-
-## UpdateInTerminal
-
-If you want to make sure keyrings will be OK when updating the system, set `EOS_UPDATE_ARCH_KEYRING_FIRST=yes` in file<br>`/etc/eos-script-lib-yad.conf`. This setting enables updating *both* Arch and EndeavourOS keyrings before updating other packages.<br>
-Note that the `archlinux-keyring-wkd-sync` service should handle the Arch keyring when enabled.
