@@ -23,6 +23,7 @@ and more.
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2024.09.26 | Endeavour neo has been released! | [Announcement](https://forum.endeavouros.com/t/our-refresh-release-endeavour-neo-is-available)<br>[Download](https://endeavouros.com/#Download) | ISO
 2024.09.14 | `yay` does not work after the latest of pacman to 7.0.0, and here's a [workaround](https://forum.endeavouros.com/t/pacman-7-0-0-r3-g7736133-1-update). For `paru` we unfortunately need to wait for a solution.<br><br>Update 2024-09-15: the new version (12.3.5-2) of `yay` is OK now.<br><br>Update-2 (2024-09-15): the latest version of `yay` is working again. A temporary workaround for `paru` is to use `paru-git` until upstream `paru` gets fixed.<br><br>Update-3 (2024-09-16): a fixed `paru` has been released to the [endeavouros] repo! | 2024-09-16: *fixed* | pacman 7.0.0, yay, paru
 2024.07.02 | OpenSSH security update info for version 9.8p1, [read this!](https://forum.endeavouros.com/t/the-sshd-service-needs-to-be-restarted-after-upgrading-to-openssh-9-8p1) | | Security
 2024.07.01 | The latest EndeavourOS ISO is called **Endeavour**! | [Announcement](https://forum.endeavouros.com/t/our-fifth-anniversary-the-return-of-arm-and-the-endeavour-release-with-plasma-6-1-is-here)<br>[Download](https://endeavouros.com/#Download)| ISO
