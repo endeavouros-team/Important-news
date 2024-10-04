@@ -23,6 +23,7 @@ and more.
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2024.10.04 |Important [security issue](https://forum.endeavouros.com/t/cups-is-affected-by-a-security-vulnerability-26-september-2024): disable `cups-browsed`.|| cups-browsed
 2024.10.03 | If you have an Nvidia GPU and get a blank screen at login, a kernel parameter `nvidia_drm.fbdev=1` may help. See [this](https://forum.endeavouros.com/t/attention-nvidia-gpu-driver-users-update-to-latest-kernel-and-drivers-could-cause-issue-on-plasma-wayland) for more info.|Experimental|Nvidia GPU<br>Plasma wayland
 2024.09.26 | Endeavour neo has been released! | [Announcement](https://forum.endeavouros.com/t/our-refresh-release-endeavour-neo-is-available)<br>[Download](https://endeavouros.com/#Download) | ISO
 2024.09.14 | `yay` does not work after the latest of pacman to 7.0.0, and here's a [workaround](https://forum.endeavouros.com/t/pacman-7-0-0-r3-g7736133-1-update). For `paru` we unfortunately need to wait for a solution.<br><br>Update 2024-09-15: the new version (12.3.5-2) of `yay` is OK now.<br><br>Update-2 (2024-09-15): the latest version of `yay` is working again. A temporary workaround for `paru` is to use `paru-git` until upstream `paru` gets fixed.<br><br>Update-3 (2024-09-16): a fixed `paru` has been released to the [endeavouros] repo! | 2024-09-16: *fixed* | pacman 7.0.0, yay, paru
