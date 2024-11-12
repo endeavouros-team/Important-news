@@ -1,7 +1,7 @@
 # General tips for the EndeavourOS users
 
 <small>
-Last updated: 2023-Feb-02
+Last updated: 2024-Nov-12
 </small>
 
 For more tips and information, see: https://forum.endeavouros.com
@@ -19,6 +19,11 @@ Tip: to run command `welcome` from the terminal, create a function into your `~/
 # add the following line into ~/.bashrc
 welcome() { eos-welcome --once "$@" & }
 ```
+### Be prepared for a system crash: REISUB
+If your system freezes, crashes, or something similar happens and there seems to be no way
+to restart the system without pressing the power button,
+see [this link](https://forum.endeavouros.com/t/tip-enable-magic-sysrq-key-reisub) (REISUB) and be
+better prepared for such problems.
 
 ## Update problems
 
