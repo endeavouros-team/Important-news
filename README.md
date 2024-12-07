@@ -23,6 +23,7 @@ and more.
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2024.12.07 | The `Welcome` app has new buttons for the REISUB feature under the **Tips** tab.<br>See the [announcement](https://forum.endeavouros.com/t/welcome-news-second-round). || Welcome app
 2024.10.04 |Important [security issue](https://forum.endeavouros.com/t/cups-is-affected-by-a-security-vulnerability-26-september-2024): disable `cups-browsed`.<br>Update 2024.10.05: package `cups-browsed` version2.0.1-2 should solve this.|*fixed*| cups-browsed
 2024.10.03 | If you have an Nvidia GPU and get a blank screen at login, a kernel parameter `nvidia_drm.fbdev=1` may help. See [this](https://forum.endeavouros.com/t/attention-nvidia-gpu-driver-users-update-to-latest-kernel-and-drivers-could-cause-issue-on-plasma-wayland) for more info.|Experimental|Nvidia GPU<br>Plasma wayland
 2024.09.26 | Endeavour neo has been released! | [Announcement](https://forum.endeavouros.com/t/our-refresh-release-endeavour-neo-is-available)<br>[Download](https://endeavouros.com/#Download) | ISO
