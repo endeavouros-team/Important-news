@@ -23,6 +23,7 @@ and more.
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2025.01.06 | Program `eos-update` in package `eos-bash-shared` version 25.1-1 has a bug that is fixed in version 25.1.1-1.<br>Please update your system with ***one*** of these commands:<br>`sudo pacman -Syu`, `yay`, `paru`, or `eos-update --aur` | Bug fix | `eos-update`
 2024.12.11 | The `Welcome` app has a new button referring the info page about `arch-chroot` under the **Tips** tab.|New **Tips** button| Welcome app
 2024.12.07 | The `Welcome` app has new buttons for the REISUB feature under the **Tips** tab.<br>See the [announcement](https://forum.endeavouros.com/t/welcome-news-second-round). | New **Tips** buttons| Welcome app
 2024.10.04 | Important [security issue](https://forum.endeavouros.com/t/cups-is-affected-by-a-security-vulnerability-26-september-2024): disable `cups-browsed`.<br>Update 2024.10.05: package `cups-browsed` version2.0.1-2 should solve this.|*fixed*| cups-browsed
