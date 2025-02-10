@@ -1,25 +1,6 @@
-# EndeavourOS software news
-
 [![Maintenance](https://img.shields.io/maintenance/yes/2025.svg)]()
 
-## Description of this page
-
-Up to date news for the users of the EndeavourOS software, like
-- manual interventions
-- important code changes
-- ISO releases
-
-and more.
-
-## Useful links
-
-[EndeavourOS forum](https://forum.endeavouros.com) is the official place to talk about EndeavourOS.<br>
-[Download the latest ISO](https://endeavouros.com)<br>
-[Known issues](known_issues.md)<br>
-[General tips](general-tips.md)<br>
-[Tips for the EOS apps](tips-for-eos-apps.md)<br>
-
-## Important news
+# EndeavourOS linux news
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
@@ -85,3 +66,12 @@ Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 2021.03.27 | IMPORTANT: in the EndeavourOS *installer* the **Update this app!** button<br>on the Welcome app should not be used for now as it will prevent installing<br>due to incompatible library versions.<br>The next ISO release will not have this issue. | Use 2021.04.17 ISO instead.
 2021.03.18 | To workaround the `yad` bug of too high window (e.g. in `akm`), we have created<br> an EndeavourOS version of `yad`.<br>One way to use it instead of the upstream version is edit file `/etc/pacman.conf`<br>and move the `[endeavouros]` repository specification as the first repo.<br> See [this page](https://github.com/endeavouros-team/PKGBUILDS/tree/master/yad) for more details.<br>See also the 2021.03.29 news item above! | Outdated (2021.05.08).
 2021.03.15 | First version of this page.
+
+
+## Useful links
+
+[EndeavourOS forum](https://forum.endeavouros.com) is the official place to talk about EndeavourOS.<br>
+[Download the latest ISO](https://endeavouros.com) is the official download site.<br>
+[Known issues](known_issues.md)<br>
+[General tips](general-tips.md)<br>
+[Tips for the EOS apps](tips-for-eos-apps.md)
