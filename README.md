@@ -4,7 +4,9 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
-2025.02.10 |Meet **Mercury**, the latest EndeavourOS ISO!<br>As usual, this new ISO is needed only for new installs. Existing installs will get to the same level with normal package updates, for example using `eos-update`.|[Announcement](https://forum.endeavouros.com/t/our-new-release-is-her-meet-mercury/67699)<br>[Download](https://endeavouros.com/#Download)|ISO
+2025.02.24 | Package `libgccjit` is needed for `emacs`.||emacs
+2025.02.24 | Package `libnotify` 0.8.4-1 causes problems with notifications.<br>A workaround is to downgrade it to the previous version.||libnotify
+2025.02.10 | Meet **Mercury**, the latest EndeavourOS ISO!<br>As usual, this new ISO is needed only for new installs. Existing installs will get to the same level with normal package updates, for example using `eos-update`.|[Announcement](https://forum.endeavouros.com/t/our-new-release-is-her-meet-mercury/67699)<br>[Download](https://endeavouros.com/#Download)|ISO
 2025.01.06 | Program `eos-update` in package `eos-bash-shared` version 25.1-1 has a bug that is fixed in version 25.1.1-1.<br>Please update your system with ***one*** of these commands:<br>`sudo pacman -Syu`, `yay`, `paru`, or `eos-update --aur` | Bug fix | `eos-update`
 2024.12.11 | The `Welcome` app has a new button referring the info page about `arch-chroot` under the **Tips** tab.|New **Tips** button| Welcome app
 2024.12.07 | The `Welcome` app has new buttons for the REISUB feature under the **Tips** tab.<br>See the [announcement](https://forum.endeavouros.com/t/welcome-news-second-round). | New **Tips** buttons| Welcome app
