@@ -4,6 +4,7 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2025.03.23 | The latest EndeavourOS ISO, **Mercury Neo**, is available! | [Announcement](https://forum.endeavouros.com/t/mercury-neo-with-linux-6-13-7-and-arch-mirror-ranking-bug-fix/69374) | ISO
 2025.02.24 | Package `libgccjit` is needed for `emacs`.||emacs
 2025.02.24 | Package `libnotify` 0.8.4-1 causes problems with notifications.<br>A workaround is to downgrade it to the previous version.||libnotify
 2025.02.10 | Meet **Mercury**, the latest EndeavourOS ISO!<br>As usual, this new ISO is needed only for new installs. Existing installs will get to the same level with normal package updates, for example using `eos-update`.|[Announcement](https://forum.endeavouros.com/t/our-new-release-is-her-meet-mercury/67699)<br>[Download](https://endeavouros.com/#Download)|ISO
