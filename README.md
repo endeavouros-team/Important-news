@@ -4,6 +4,7 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2025.05.11 | `dracut` version 107-1 with the LTS kernel will cause error: **failed to mount /sysroot**.<br>Workaround: downgrade to dracut 106-1 for now. | [More info](https://forum.endeavouros.com/t/issue-with-dracut-107-and-the-lts-kernel-causing-failed-to-mount-sysroot/71232) | dracut 107-1, linux-lts
 2025.03.23 | The latest EndeavourOS ISO, **Mercury Neo**, is available! | [Announcement](https://forum.endeavouros.com/t/mercury-neo-with-linux-6-13-7-and-arch-mirror-ranking-bug-fix/69374) | ISO
 2025.02.24 | Package `libgccjit` is needed for `emacs`.||emacs
 2025.02.24 | Package `libnotify` 0.8.4-1 causes problems with notifications.<br>A workaround is to downgrade it to the previous version.||libnotify
