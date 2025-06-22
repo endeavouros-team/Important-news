@@ -4,6 +4,8 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2025.06.22 |[Manual intervention needed](https://forum.endeavouros.com/t/linux-firmware-20250613-12fe085f-5-upgrade-requires-manual-intervention/72761).|linux-firmware split| Nvidia firmware
+2025.06.22 |[Manual intervention needed](https://forum.endeavouros.com/t/manual-intervention-needed-with-upgrading-to-plasma-6-4/72713)|plasma-x11-session| Plasma 6.4, x11
 2025.06.01 | The installer of latest ISO (Mercury Neo) has a problem installing the Nvidia GPU driver.<br>See the link on the right for workaround methods. | [Workaround tips](https://forum.endeavouros.com/t/nvidia-gpu-users-attention-please-june-2025/72058)| Nvidia GPU driver
 2025.05.24 | `mesa`version 1:25.1.1-1 may cause issues on some machines. Downgrading to an earlier version should help for now.| [More info](https://forum.endeavouros.com/t/mesa-caution-to-all-users/71674) | mesa
 2025.05.11 | `dracut` version 107-1 with the LTS kernel may cause error:<br>**failed to mount /sysroot**<br>Workaround: downgrade to dracut 106-1 for now. | [More info](https://forum.endeavouros.com/t/issue-with-dracut-107-and-the-lts-kernel-causing-failed-to-mount-sysroot/71232) | dracut 107-1, linux-lts
