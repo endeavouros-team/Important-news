@@ -4,6 +4,7 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2025.07.12 |[Manual intervention needed](https://forum.endeavouros.com/t/vlc-stopped-working-after-update/73326)| vlc plugin split| vlc plugins 
 2025.07.07 | Package `phonon-gt6-mpv` removed from the repos.<br>Alternatively use `phonon-qt6-vlc`. | [More info](https://forum.endeavouros.com/t/phonon-qt6-mpv-removed-from-the-repos/73259)| Media players
 2025.06.22 |[Manual intervention needed](https://forum.endeavouros.com/t/linux-firmware-20250613-12fe085f-5-upgrade-requires-manual-intervention/72761).|linux-firmware split| Nvidia firmware
 2025.06.22 |[Manual intervention needed](https://forum.endeavouros.com/t/manual-intervention-needed-with-upgrading-to-plasma-6-4/72713)|plasma-x11-session| Plasma 6.4, x11
