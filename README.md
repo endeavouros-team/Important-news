@@ -4,6 +4,7 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2025.07.21 | EndeavourOS forum, wiki, and default info pages are currently unavailable.<br>We are working on it, and we expect it to be resolved by 2025 July 22. | [More info](https://github.com/endeavouros-team) |
 2025.07.12 |[Manual intervention needed](https://forum.endeavouros.com/t/vlc-stopped-working-after-update/73326)| vlc plugin split| vlc plugins 
 2025.07.07 | Package `phonon-gt6-mpv` removed from the repos.<br>Alternatively use `phonon-qt6-vlc`. | [More info](https://forum.endeavouros.com/t/phonon-qt6-mpv-removed-from-the-repos/73259)| Media players
 2025.06.22 |[Manual intervention needed](https://forum.endeavouros.com/t/linux-firmware-20250613-12fe085f-5-upgrade-requires-manual-intervention/72761).|linux-firmware split| Nvidia firmware
