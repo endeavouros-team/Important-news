@@ -4,7 +4,7 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
-2025.11.07 | `glances` 4.4.1-1 requires dependency `python-jinja`, without starting `glances` fails. || glances
+2025.11.07 | `glances` 4.4.1-1 requires dependency `python-jinja`, without it `glances` fails to start. || glances
 2025.11.03 | If file **/etc/pacman.d/endeavouros-mirrorlist** is missing, re-create it with commands:<br>`sudo touch /etc/pacman.d/endeavouros-mirrorlist`<br>`eos-rankmirrors`<br>Version 25.10.6-1 of **eos-rankmirrors** doesn't need this workaround. | Re-create missing **endeavouros-mirrorlist**
 2025.08.25 | AUR updates fail at times. | See [this](https://forum.endeavouros.com/t/aur-down-or-something-on-my-end/74278). | 
 2025.07.21 | EndeavourOS forum, wiki, and default info pages are currently unavailable.<br>We are working on it, and we expect it to be resolved by 2025 July 22. | [More info](https://github.com/endeavouros-team)<br>2025.07.23: resolved. |
