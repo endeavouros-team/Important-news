@@ -4,6 +4,7 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2025.12.13 | The update of `pacman` affects packages that use it, such as `yay` and `paru`.<br>Now `yay` has been properly updated already, and we are waiting for `paru` devs to update it as well. | pacman update | yay, paru
 2025.11.30 | The latest ISO called `Ganymede` is available for new installs! |[Announcement](https://forum.endeavouros.com/t/the-long-wait-is-over-ganymede-has-arrived/76667)<br>[Download](https://endeavouros.com/#Download)| ISO
 2025.11.07 | `glances` 4.4.1-1 requires dependency `python-jinja`, without it `glances` fails to start. || glances
 2025.11.03 | If file **/etc/pacman.d/endeavouros-mirrorlist** is missing, re-create it with commands:<br>`sudo touch /etc/pacman.d/endeavouros-mirrorlist`<br>`eos-rankmirrors`<br>Version 25.10.6-1 of **eos-rankmirrors** doesn't need this workaround. | Re-create missing **endeavouros-mirrorlist**
