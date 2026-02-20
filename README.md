@@ -4,6 +4,7 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2026.02.20 | When starting the Welcome app it shows its **news notification area** *only* when "new" news is available.<br>Note that clicking the **Software News** button will show the actual news page as usual. | Change in the news notification area | The Welcome app 26.1-1
 2026.02.06 | The structure of package `firewalld` has changed and manual intervention may be needed.| [More info](https://forum.endeavouros.com/t/manual-intervention-is-necessary-to-regain-the-graphical-tools-for-firewalld/77959) | firewalld
 2025.12.20 | Nvidia GPU drivers are changing. Turing family and newer GPUs will be directed to use the `nvidia-open` package.<br>Older GPUs (e.g. 10xx series) should use `nvidia-580xx-dkms` from the AUR, *or* the `nouveau` kernel driver.| [More Info](https://forum.endeavouros.com/t/nvidia-gpu-users-attention-please-dec-2025/77119)| Nvidia GPU driver
 2025.12.13 | The update of `pacman` affects packages that use it, such as `yay` and `paru`.<br>Now `yay` has been properly updated already, and we are waiting for `paru` devs to update it as well. | pacman update | yay, paru
