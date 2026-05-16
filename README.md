@@ -4,6 +4,7 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2026.05.16 | More vulnerabilities detected leading to kernel fixes. Keep updating your system! | Latest kernel 7.0.8.arch1-1 |
 2026.05.14 |Another dirty-frag related vulnerability detected in kernel.| Fix should be in 7.0.6.arch1-1.|dirty-frag
 2026.05.08 | Yet another vulnerability has been detected, see e.g. [this link](https://forum.endeavouros.com/t/another-vulnerability-that-gives-root-access-dirty-frag/79530). The next kernel update should have a fix.|Fixed in linux 7.0.5.arch1-1| "dirty-frag" vulnerability
 2026.02.20 | When starting the Welcome app it shows its **news notification area** *only* when "new" news is available.<br>Note that clicking the **Software News** button will show the actual news page as usual. | Change in the news notification area | The Welcome app 26.1-1
