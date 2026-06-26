@@ -2,9 +2,14 @@
 
 # EndeavourOS linux news
 
+<strong>
+
+[See also the EndeavourOS forum!](https://forum.endeavouros.com/)
+</strong>
+
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
-2026.06.15 | AUR malware attack | Please [see this!](https://forum.endeavouros.com/t/arch-linux-aur-hit-by-malware-attack/80162/38)| AUR and AUR helpers
+2026.06.15 | AUR malware attack | Please [see this.](https://forum.endeavouros.com/t/arch-linux-aur-hit-by-malware-attack/80162/38)| AUR and AUR helpers
 2026.05.16 | More vulnerabilities detected leading to kernel fixes. Keep updating your system! | Latest kernel 7.0.8.arch1-1 |
 2026.05.14 |Another dirty-frag related vulnerability detected in kernel.| Fix should be in 7.0.6.arch1-1.|dirty-frag
 2026.05.08 | Yet another vulnerability has been detected, see e.g. [this link](https://forum.endeavouros.com/t/another-vulnerability-that-gives-root-access-dirty-frag/79530). The next kernel update should have a fix.|Fixed in linux 7.0.5.arch1-1| "dirty-frag" vulnerability
