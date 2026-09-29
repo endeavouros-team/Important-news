@@ -9,6 +9,7 @@
 
 Date<br>yyyy.mm.dd | Description | Additional remarks | Relates to
 :--- | :--- | :---- | :---
+2026.09.29 |`eos-update-notifier` has been removed.<br>To update your system, please consider using any of the following terminal commands:<br>`eos-update`<br>`eos-update --aur`<br>`sudo pacman -Syu`<br>`yay`<br>`paru`|See also:<br>`eos-update --help`<br>`eos-update --tips`<br>`man pacman`<br>`man yay`|
 2026.06.15 | AUR malware attack | Please [see this.](https://forum.endeavouros.com/t/arch-linux-aur-hit-by-malware-attack/80162/38)| AUR and AUR helpers
 2026.05.16 | More vulnerabilities detected leading to kernel fixes. Keep updating your system! | Latest kernel 7.0.8.arch1-1 |
 2026.05.14 |Another dirty-frag related vulnerability detected in kernel.| Fix should be in 7.0.6.arch1-1.|dirty-frag
